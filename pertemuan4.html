@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praktikum 4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+
+    header {
+      background-color: #4a90e2;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+    }
+
+    nav ul li a:hover {
+      background-color: #357ab8;
+    }
+
+    .container {
+      display: flex;
+      margin: 20px;
+      gap: 20px;
+    }
+
+    .content {
+      flex: 3;
+    }
+
+    .sidebar {
+      flex: 1;
+      background: #e4e4e4;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    article {
+      background: white;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Website Praktikum 4</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Artikel</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="content">
+      <article id="artikel1">
+        <h2>Judul Artikel 1</h2>
+        <p>Isi artikel pertama tentang topik pengembangan web.</p>
+      </article>
+      <article id="artikel2">
+        <h2>Judul Artikel 2</h2>
+        <p>Isi artikel kedua yang membahas tentang CSS dan layout.</p>
+      </article>
+      <article id="artikel3">
+        <h2>Judul Artikel 3</h2>
+        <p>Isi artikel tambahan untuk memenuhi soal nomor 12.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <h3>Link Artikel</h3>
+      <ul>
+        <li><a href="#artikel1">Artikel 1</a></li>
+        <li><a href="#artikel2">Artikel 2</a></li>
+        <li><a href="#artikel3">Artikel 3</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2025</p>
+  </footer>
+</body>
+</html>
